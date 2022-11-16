@@ -1,6 +1,5 @@
-const listaElementi = [];
+let listaElementi = [];
 const playBtn = document.getElementById("play");
-let cont = document.getElementById("ms_cont");
 
 
 // L’utente clicca su un bottone che genererà una griglia di gioco quadrata.
@@ -8,8 +7,10 @@ let cont = document.getElementById("ms_cont");
 // evento sul bottone
 
 playBtn.addEventListener ("click" , function() {
-  
-
+  let container = document.getElementById("ms_cont");
+  listaElementi = [];
+  console.log(container);
+  container.innerHTML = "";
 
   generaListaElementi(1, 100,listaElementi,"div");
 
