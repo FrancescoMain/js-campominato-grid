@@ -46,6 +46,14 @@ img {
     flex-wrap: wrap;
 }
 
+.ms_bigc {
+
+    height: 700px;
+    display: flex;
+    align-items: center;
+
+}
+
 .box {
     width: calc(100% / 10);
     height: 60px;
