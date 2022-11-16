@@ -38,6 +38,27 @@ img {
 
 /* ms */
 
+#ms_cont {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: calc(100% / 10);
+    height: 60px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clicked {
+    background-color: aqua  ;
+}
+
 /* bs rules  */
 
 
